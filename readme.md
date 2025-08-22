@@ -2,48 +2,79 @@
 
 ## **Resumo do Mini Curso de Contabilidade com Python**
 
-Neste curso, você vai aprender a usar Python para facilitar tarefas do dia a dia contábil, mesmo que ainda não seja expert em programação. Ao final, você vai conseguir:
+Neste curso, você vai aprender a usar Python para facilitar tarefas do dia a dia contábil, mesmo que ainda não seja expert em programação.
 
-1. **Fundamentos e Preparação**
+### **1. Fundamentos**
 
-   - Instalar ferramentas e configurar notebooks para trabalhar com dados contábeis.
-   - Entender o básico de Python aplicado à contabilidade (variáveis, listas, funções).
-   - Integrar Python com planilhas Excel para manipular dados facilmente.
+- Instalação de bibliotecas (`pandas`, `numpy`, `matplotlib`, `seaborn`, `pdfplumber`, `openpyxl`)
+- Configuração do Jupyter Notebook
+- Introdução ao Python para contabilidade (variáveis, listas, dicionários, loops, funções)
+- Primeiro notebook: “Hello World” com Python aplicado a dados simples de contabilidade
+- Noções básicas de Excel e integração com Python (`openpyxl`, `pandas`)
 
-2. **Extração de Dados**
+---
 
-   - Ler dados de arquivos CSV, Excel e PDFs (como notas fiscais e relatórios).
-   - Limpar e organizar os dados para análise, corrigindo erros ou valores faltantes.
+### **2. Extração e fundamentos de Dados**
 
-3. **Manipulação e Transformação**
+- Tipos de dados e estruturas básicas (listas, dicionários, DataFrames)
+- Leitura e escrita de arquivos CSV e Excel
+- Exercício: criar uma tabela de despesas ou receitas fictícia
+- Leitura de PDFs com tabelas (`pdfplumber` é mais confiável que Tabula/Camelot)
+- Tratamento de dados com `pandas` (limpeza, preenchimento de valores ausentes, renomear colunas)
+- Exercício prático: extrair dados de uma nota fiscal ou relatório bancário fictício
 
-   - Filtrar, ordenar e agrupar dados para criar resumos úteis.
-   - Combinar informações de diferentes fontes e calcular novos indicadores, como margem e lucro.
+---
 
-4. **Análise Financeira**
+### **3. Manipulação e Transformação**
 
-   - Calcular indicadores básicos (lucro, margem, crescimento).
-   - Controlar contas a pagar e receber, fluxo de caixa e balanço simplificado.
-   - Comparar resultados entre diferentes períodos para entender tendências.
+- Filtragem, ordenação e seleção de colunas
+- Agrupamentos e `pivot_table`
+- Combinar dados de múltiplas fontes
+- Conversão de formatos de data e moeda
+- Criação de novas colunas com cálculos (ex: impostos, margem, lucro líquido)
+- Exercício prático: calcular lucro líquido por mês ou categoria
 
-5. **Visualização de Dados**
+---
 
-   - Criar gráficos claros e intuitivos para entender receitas, despesas e lucros.
-   - Construir dashboards simples para acompanhamento contínuo.
+### **4. Análise Financeira**
 
-6. **Automação de Relatórios**
+- Cálculo de indicadores financeiros básicos (lucro, margem, crescimento)
+- Análise de contas a pagar e receber
+- Fluxo de caixa e balanço patrimonial simplificado
+- Comparativos entre períodos
+- Exercício prático: analisar a evolução de lucro e despesas em 6 meses
 
-   - Automatizar geração de relatórios e gráficos periódicos.
-   - Atualizar planilhas e enviar resultados por email, poupando tempo e esforço.
+---
 
-7. **Previsão e Cenários**
+### **5. Visualização**
 
-   - Criar projeções de receita e despesas usando séries temporais.
-   - Simular cenários “o que aconteceria se…” para planejar decisões.
-   - Detectar padrões ou inconsistências nos dados contábeis.
+- Gráficos com `matplotlib` e `seaborn` (barras, linhas, pizza, heatmaps)
+- Dashboards simples com `plotly` ou `streamlit` para interatividade
+- Exercício prático: criar gráfico de despesas por categoria e evolução de receita
 
-8. **Boas Práticas**
+---
 
-   - Organizar projetos e notebooks para facilitar o trabalho futuro.
-   - Documentar análises e usar controle de versão (Git).
-   - Conferir dados de forma consistente e automatizar tarefas repetitivas.
+### **6. Automação**
+
+- Automatizar relatórios mensais ou semanais
+- Envio de relatórios por email (ex: `smtplib`)
+- Atualização automática de planilhas
+- Exercício prático: gerar relatório mensal de receitas e despesas com gráficos
+
+---
+
+### **7. Previsão e Modelos**
+
+- Séries temporais básicas para previsão de vendas ou despesas (`statsmodels`, `prophet`)
+- Cenários “what-if”: simular aumento ou queda de receita/estoque e impacto no lucro
+- Identificação de padrões ou inconsistências contábeis
+- Exercício prático: prever fluxo de caixa para o próximo trimestre
+
+---
+
+### **8. Boas Práticas e automação pyautogui**
+
+- Organização de projetos e notebooks
+- Controle de versão com Git
+- Documentação simples de análises
+- Checklist de conferência de dados (valores ausentes, duplicados, consistência)
