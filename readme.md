@@ -1,6 +1,4 @@
-Perfeito, Gui! Aqui vai um resumo **simples e direto**, focado no que a pessoa vai aprender e aplicando à contabilidade:
-
----
+## Estude de acordo com a ordem dos diretórios
 
 ## **Resumo do Mini Curso de Contabilidade com Python**
 
@@ -49,9 +47,3 @@ Neste curso, você vai aprender a usar Python para facilitar tarefas do dia a di
    - Organizar projetos e notebooks para facilitar o trabalho futuro.
    - Documentar análises e usar controle de versão (Git).
    - Conferir dados de forma consistente e automatizar tarefas repetitivas.
-
----
-
-Se você quiser, posso também criar uma **versão ainda mais enxuta**, tipo um texto de 2-3 parágrafos, que você poderia mandar direto para ela como introdução ao curso. Isso deixaria bem fácil de entender e motivador.
-
-Quer que eu faça essa versão também?
