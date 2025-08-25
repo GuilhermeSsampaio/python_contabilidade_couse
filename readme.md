@@ -4,13 +4,15 @@
 
 Neste curso, você vai aprender a usar Python para facilitar tarefas do dia a dia contábil, mesmo que ainda não seja expert em programação.
 
+Cada sessão possui exercícios e ao fim do módulo um exercício mais complexo aplicando todos os fundamentos abordados
+
 ### **1. Fundamentos**
 
-- Instalação de bibliotecas (`pandas`, `numpy`, `matplotlib`, `seaborn`, `pdfplumber`, `openpyxl`)
 - Configuração do Jupyter Notebook
 - Introdução ao Python para contabilidade (variáveis, listas, dicionários, loops, funções)
-- Primeiro notebook: “Hello World” com Python aplicado a dados simples de contabilidade
+- Instalação de bibliotecas (`pandas`, `numpy`, `matplotlib`, `seaborn`, `pdfplumber`, `openpyxl`)
 - Noções básicas de Excel e integração com Python (`openpyxl`, `pandas`)
+- Primeiro notebook: “Hello World” com Python aplicado a dados simples de contabilidade
 
 ---
 
